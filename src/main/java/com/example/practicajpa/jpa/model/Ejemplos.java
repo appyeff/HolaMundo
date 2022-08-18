@@ -1,7 +1,10 @@
 package com.example.practicajpa.jpa.model;
 
 public class Ejemplos {
+  
   public static void main(String[] args) {
-    System.out.println("Hola");
+    Mensaje msg = new Mensaje();
+    String nombre = msg.solicitarDatos("Escriba tu nombre: ");
+    msg.saludar(nombre);
   }
 }
