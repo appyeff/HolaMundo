@@ -10,8 +10,8 @@ public class Calculadora {
     return a - b;
   }
 
-
-  public void noUsar() {
-    System.out.println();
-  }
+  // comente la linea que considero se puede eliminar
+  // public void noUsar() {
+  //   System.out.println();
+  // }
 }
