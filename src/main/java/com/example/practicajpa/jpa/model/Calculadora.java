@@ -10,10 +10,4 @@ public class Calculadora {
     return a - b;
   }
 
-  // comente la linea que considero se puede eliminar
-  // public void noUsar() {
-  //   System.out.println();
-  // }
-
-  // linea comentada
 }
